@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+ <!-- CSS Section -->
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link rel='stylesheet' href='./Content/app.css' />
+</head>
+<body>
+<h1 align="center"><%= title %></h1>
+<form method = "post">
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right">First Name:</label>
+		<input type="text" class="col-sm-4 form-group" placeholder="Enter your first name" name="firstName" required>
+		</div>
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right" >Password:</label>
+		<input type="text" class="col-sm-4 form-group" placeholder="Enter your last name" name="lastName" required>
+		</div>
+
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right">Email Id:</label>
+		<input type="email" class="col-sm-4 form-group" value=<%= username %> name="emailId">
+		</div>
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right" >Previous Major:</label>
+		<input type="text" class="col-sm-4 form-group" placeholder="Enter your previous major" name="previousMajor">
+		</div>
+	
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right">Favourite Sport:</label>
+		<input type="text" class="col-sm-4 form-group" placeholder="Enter your favourite sport" name="favouriteSport">
+		</div>
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right">Comments::</label>
+		<textarea class="col-sm-4 form-group" rows="6" placeholder="Enter your comments" name="comments" required></textarea>
+		</div>
+
+		<div style = "text-align: center">
+		<input type="submit"  class=" btn btn-primary btn-md" style="text-align: center" value="Submit" name="submit">
+		</div>
+
+</form>
+</body>
+</html>

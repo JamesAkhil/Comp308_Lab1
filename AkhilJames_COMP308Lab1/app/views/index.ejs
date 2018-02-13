@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title><%= title %></title>
+ <!-- CSS Section -->
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link rel='stylesheet' href='./Content/app.css' />
+</head>
+<body>
+<form method = "post">
+<h1 align="center">Login Form</h1>
+<br/>
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right">User Name:</label>
+		<input type="email" class="col-sm-4 form-group" placeholder="Enter your user name" name="username">
+		</div>
+		<div class="row">
+		<label class="col-sm-4 float-right" style="text-align: right" >Password:</label>
+		<input type="password" class="col-sm-4 form-group" placeholder="Enter your password" name="password" required>
+		</div>
+		<div style = "text-align: center">
+		<input type="submit"  class=" btn btn-primary btn-md" style="text-align: center" value="Submit" name="submit" >
+		</div>
+</form>
+
+</body>
+
+</html>

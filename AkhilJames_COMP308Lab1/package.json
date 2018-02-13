@@ -1,0 +1,19 @@
+{
+  "name": "akhil-james_comp308-lab1",
+  "version": "0.0.0",
+  "description": "AkhilJames_COMP308Lab1",
+  "main": "server.js",
+  "author": {
+    "name": "akhil"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "body-parser": "1.15.2",
+    "bootstrap": "^4.0.0",
+    "compression": "1.6.0",
+    "ejs": "2.5.2",
+    "express-session": "1.14.1",
+    "method-override": "2.3.6"
+  }
+}
